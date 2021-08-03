@@ -278,9 +278,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -300,19 +298,19 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E6%91%84%E5%BD%B1/" title="摄影: 1">
+                <a href="/tags/AE/" title="AE: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="摄影" style="background-color: #F9EBEA;">摄影
+                             chip-default "
+                            data-tagname="AE" style="background-color: #F9EBEA;">AE
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/AE/" title="AE: 1">
+                <a href="/tags/%E6%91%84%E5%BD%B1/" title="摄影: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="AE" style="background-color: #F5EEF8;">AE
+                             chip-active "
+                            data-tagname="摄影" style="background-color: #F5EEF8;">摄影
                         <span class="tag-length">1</span>
                     </span>
                 </a>
